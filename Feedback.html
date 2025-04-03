@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Feedback</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="qualification.html">Qualification</a>
+        <a href="experience.html">Experience</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+    <section>
+        <h2>We Value Your Feedback!</h2>
+        <form id="feedbackForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Feedback:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Aditya Harbola. All rights reserved.</p>
+    </footer>
+</body>
+</html>
